@@ -50,7 +50,7 @@ bool valid(string password)
             symbol = true;
         }
     }
-    if ((lower && upper && number && symbol) == true)
+    if (lower && upper && number && symbol == true)
     {
         return true;
     }
