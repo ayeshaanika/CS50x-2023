@@ -19,9 +19,17 @@ int main(int argc, char *argv[])
     for (int i = 0; i < 8; i++)
     {
         plates[i] = malloc(7);
+        if (plates[i] == NULL)
+        {
+            return 1;
+        }
     }
 
     FILE *infile = fopen(argv[1], "r");
+    if (infile == NULL)
+    {
+        return 1;
+    }
 
     int idx = 0;
 
