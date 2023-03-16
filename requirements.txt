@@ -1,3 +1,4 @@
 check50
 style50
 submit50
+pyfiglet
