@@ -13,7 +13,7 @@ def main(argc, argv):
         else:
             sys.exit('Invalid font')
     else:
-        sys.exit('Usage: ./figlet.py [options]\n\nOptions:\n  -f, --font=<font>\n')
+        sys.exit('Usage: python ./figlet.py [options]\n\nOptions:\n  -f, --font=<font>\n')
 
     text = input('Text: ')
 
