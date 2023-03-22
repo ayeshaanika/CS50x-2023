@@ -4,6 +4,8 @@ import re
 
 def main():
     card = get_int('Number: ')
+    if card == None:
+        print("Cound't get credit card number")
 
     card_name = ''
     if cardIsValid(card):

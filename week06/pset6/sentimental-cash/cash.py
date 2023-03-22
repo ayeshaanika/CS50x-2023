@@ -8,9 +8,9 @@ def main():
         money = get_float('Money: ')
         if money == None:
             print("Sorry, couldn't read the input")
-        else:
-            if money >= 0:
-                break
+            sys.exit(1)
+        elif money >= 0:
+            break
     
     coins_list = [0.25, 0.10, 0.05, 0.01]
     coins = 0
