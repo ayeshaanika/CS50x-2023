@@ -1,0 +1,9 @@
+.navbar-brand {
+  width: 200px;
+}
+
+.carousel-image{
+  width: 40vw !important;
+  max-width: 500px;
+  margin: auto;
+}
